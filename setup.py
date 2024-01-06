@@ -21,3 +21,4 @@ setup(
     packages=['recsys', 'recsys.algorithm', 'recsys.datamodel', 'recsys.evaluation', 'recsys.utils'],
     install_requires = ["numpy", "scipy", "divisi2", "csc-pysparse"],
 )
+ 
