@@ -1,4 +1,4 @@
-# Makefile for Sphinx documentation
+  Makefile for Sphinx documentation
 #
 
 # You can set these variables from the command line.
@@ -27,7 +27,7 @@ help:
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
 
 clean:
-	-rm -rf build/*
+	-rm -rf build/ 
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) build/html
@@ -86,3 +86,4 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) build/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in build/doctest/output.txt."
+ 
